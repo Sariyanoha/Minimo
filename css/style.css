@@ -1,0 +1,225 @@
+/*  
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/*==========================================================
+     Template Name: Strict || HTML Template
+     Author: Md. Nur Nobi
+     Version: 1.0
+     Created: 16/04/2021
+     File Description: This is very minimal html template
+ ===========================================================*/
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Ubuntu:wght@400;500&display=swap');
+ /*=========================== 
+        General Style
+  ============================*/
+
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+.container-blog{
+	width: 60%;
+	margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-family: 'Playfair Display', serif;
+   font-size: 30px;
+   line-height: 40px;
+}
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0;
+}
+a{
+ text-decoration: none;
+}
+.category p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;	
+	color: #b4ad9e;
+	line-height: 30px;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+.comment p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;	
+	color: #b4ad9e;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+/* header start here  */
+header{
+	padding: 30px 0;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 20%;
+}
+.manu{
+	width: 75%;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	font-size: 14px;
+	line-height: 3opx;
+	color: #626262;
+	text-transform: uppercase;
+	padding: 0 60px;
+	transition: .3;
+}
+nav ul li:last-child a{
+	padding-right: 0;
+}
+nav ul li a:hover{
+	color: #2980b9;
+}
+/* header end here  */
+.banner{
+	min-height: 800px;
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* about start here  */
+.about{
+	padding: 100px 0;
+}
+.about h1{
+	padding: 25px 0;
+}
+/* about end here  */
+/* blog start here  */
+.blog-wrapper{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.blog-left, .blog-right{
+    width: 48%;
+}
+.thumbnail{
+	margin-top: 25px;
+}
+.thumbnail img{
+	width: 100%;
+}
+.blog-content h2{
+	padding: 25px 0;
+}
+/* blog end here  */
+/* newsletter  */
+#newsletter{
+	background-color: #f0f0f0;
+	padding: 75px 0;
+}
+.newsletter{
+	width: 25%;
+	margin: auto;
+}
+.newsletter h2{
+	color: #333333;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.form{
+	border-bottom: 1px solid #333;
+	position: relative;
+}
+.form input{
+           width: 100%;
+		   box-sizing: border-box;
+		   border: none;
+		   background-color: transparent;
+		   padding: 15px 0;
+}
+.form input:focus{
+	border: none;
+	outline: 0;
+}
+.form button{
+	position: absolute;
+	border: none;
+	cursor: pointer;
+	top: 50%;
+	right: 0;
+	transform: translate(0, -50%);
+	padding: 0;
+}
+.form input [type="email"]::placeholder{
+	font-size: 14px;
+	color: #626262;
+}
+.load-more-button{
+	text-align: center;
+}
+.load-more-button a{
+	font-size: 20px;
+	line-height: 60px;
+	color: #626262;
+	border: 1px solid #626262;
+	text-transform: capitalize;
+	height: 60px;
+	width: 165px;
+	display: block;
+	margin: auto;
+}
+.last-blog{
+	padding-bottom: 300px;
+}
+footer{
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+.footer-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.terms ul, .social ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.terms ul li, .social ul li{
+	display: inline-block;
+}
+.terms ul li a, .social ul li a{
+    font-size: 16px;
+	color: #000000;
+	padding: 0 15px;
+} 
+.terms ul li:first-child a{
+    padding-left: 0;
+}
+.social ul li:last-child a{
+    padding-right: 0;
+}
